@@ -24,3 +24,7 @@ htmljs-publish-atom
 'htmljs-columnID': '1' #要自动发送到的专栏的id
 ```
 3.之后打开一个markdown文件，右击，选择发送到前端乱炖即可
+
+###其他
+
+发出的文章默认以第一行的内容做标题。
