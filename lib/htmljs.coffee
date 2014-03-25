@@ -26,7 +26,7 @@ module.exports =
         userId:user_id
         appId:app_id
         column_id:column_id
-        title:md.match(/^.*?\n/)
+        title:md.match(/^.*?\n/).replace(/\#/g,'')
     },(error,res,body)->
       console.log body
       if error
