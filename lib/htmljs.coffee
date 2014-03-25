@@ -40,7 +40,7 @@ module.exports =
         if data.success
           atom.confirm
             message: '发布成功'
-            detailedMessage: '仅支持md后缀的文件'
+            detailedMessage: '发布成功'
             buttons:
               确定:null
         else
