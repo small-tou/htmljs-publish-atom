@@ -6,7 +6,7 @@ module.exports =
 
   convert: ->
     md = atom.workspace.getActiveEditor().getText()
-    md += "\n > "
+    md += "\n > 本文使用乱炖的Atom编辑器插件直接发送，详见：https://github.com/xinyu198736/htmljs-publish-atom"
     filePath = atom.workspace.getActiveEditor().getPath()
     if path.extname(filePath).toLowerCase!=".md"
       console.log("仅支持md后缀的文件")
