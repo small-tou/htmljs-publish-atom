@@ -1,3 +1,0 @@
-'context-menu':
-  '.workspace':
-    '发布到前端乱炖': 'htmljs:publish'
