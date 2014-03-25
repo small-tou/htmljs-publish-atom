@@ -14,7 +14,7 @@ htmljs-publish-atom
 ```
 {
   "user_id": 1,
-  "app_id": "e46375c2f56107c24cc178d51f2b0d3a"
+  "app_id": "e46375c2***51f2b0d3a"
 }
 ```
 2.将以上信息填入Atom的配置文件中，具体在Atom-》open your config。打开之后添加以下三个参数：
